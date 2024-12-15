@@ -626,8 +626,8 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-..modal-close-btn-icon:hover,
-.modal-close-btn-icon:focus{
+.modal-close-btn-icon:hover .modal-close-btn-icon,
+.modal-close-btn-icon:focus .modal-close-btn-icon{
     fill: #ffffff;
 }
 
@@ -654,6 +654,7 @@ img {
     width: 360px;
     height: 58px;
     margin-bottom: 8px;
+    position: relative;
   
 }
 
@@ -695,7 +696,7 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icon:focus{
+.form-input:focus .fprm-icon{
     fill: #4D5AE5;
 }
 
@@ -738,6 +739,10 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+.modal-div-textarea{
+    margin-bottom: 16px;
 }
 
 .modal-form-checkbox{
